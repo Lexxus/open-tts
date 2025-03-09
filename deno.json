@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --watch src/main.ts",
+    "start": "deno run --allow-env --allow-read --allow-write --allow-net src/main.ts"
+  },
+  "imports": {
+    "@types/minimist": "npm:@types/minimist@^1.2.5",
+    "dotenv": "npm:dotenv@^16.4.7",
+    "minimist": "npm:minimist@^1.2.8",
+    "openai": "npm:openai@^4.86.2"
+  }
+}
